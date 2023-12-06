@@ -1,0 +1,157 @@
+/* @import url('https://fonts.cdnfonts.com/css/itc-avant-garde-pro-md'); */
+
+* {
+    font-family: ITC Avant Garde, sans-serif !important;
+    text-decoration: none !important;
+    transition: all .2s;
+
+}
+
+:root {
+    --primary: #0070d2;
+    --dark: #2c2c2c;
+
+}
+
+body {
+    font-size: 0.8125rem;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    box-shadow: none !important;
+    border-color: var(--primary);
+}
+
+.btn-secondarys {
+    background-color: #ffff;
+    color: var(--dark);
+    box-shadow: none !important;
+    border: 1px solid rgb(150, 148, 146) !important;
+    color: rgb(0, 112, 210) !important;
+}
+
+.btn-secondarys:hover,
+.btn-secondarys::before,
+.btn-secondarys::after,
+.btn-secondarys:active {
+    background-color: rgb(239, 241, 243) !important;
+}
+
+.login-page {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.login-page .container-fluid .login-form .card {
+    position: relative;
+}
+
+.login-page .container-fluid .login-form {
+    margin-top: 10%;
+    position: relative;
+}
+
+.login-page .container-fluid .login-form .footer {
+    position: fixed;
+    /* margin: auto; */
+    font-size: 15px;
+    bottom: 10px;
+    text-align: center;
+    left: 0% !important;
+    gap: 5px;
+    width: 50%;
+}
+
+
+.login-page .container-fluid .login-form .card .card-body .form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 .3px .3px #0070d2bb !important;
+}
+
+
+.login-page .container-fluid .login-form .card .card-body .form-label {
+    font-family: SFS, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.login-page .container-fluid .login-form .card .card-body .login-form-links .login-links {
+    font-size: 11.5px;
+    color: var(--primary) !important;
+}
+
+.login-page .container-fluid .login-form .login-buttom p {
+    font-size: 0.8125rem;
+}
+
+.banner {
+    position: relative !important;
+}
+
+.login-details {
+    width: 50% !important;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    position: fixed;
+    height: 100vh !important;
+    top: 0;
+    right: 0;
+    padding: 4px 34px;
+    background-size: cover;
+    background-color: #fafafabb;
+    /* overflow: hidden; */
+}
+
+.login-details .content {
+    z-index: 1;
+    position: relative;
+}
+
+.login-details .content .title {
+    font-size: 23px;
+    line-height: 28px !important;
+    padding-top: 60px;
+    font-weight: 750;
+    line-height: 10px;
+}
+
+.login-details .content .title.title-2 {
+    font-size: 30px !important;
+    color: #fff;
+    line-height: 28px !important;
+    padding-top: 20px;
+    font-weight: 750;
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+
+.login-details .content .heading {
+    font-size: 15px;
+    margin-top: 30px;
+    display: flex;
+    color: var(--dark);
+}
+
+.login-details .content .content-details .content-text {
+    font-size: 15px;
+    line-height: 18px;
+    margin: 20px 0;
+    display: flex;
+    gap: 8px;
+}
+
+
+.login-details .content .dashboard-img {
+    margin-top: 34px;
+}
+
+
+@media(max-width: 991px) {
+    .login-page .container-fluid .login-form .footer {
+        width: 100%;
+    }
+}
